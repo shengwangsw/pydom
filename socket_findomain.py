@@ -33,5 +33,5 @@ for t in range(param-1):
                         domain = socket.gethostbyname(name)
                 except socket.gaierror:
                		file = open("output.txt", "a")
-                        file.write(name)
+                        file.write(name + '\n')
                         file.close()
